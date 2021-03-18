@@ -13,7 +13,7 @@
   <p>{{ inviteName }}</p>
   <p>{{ inviteEmail }}</p>
 </template>
-
+  
 <script>
 import InviteForm from "./InviteForm.vue";
 import { reactive, ref } from "vue";

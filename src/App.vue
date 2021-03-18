@@ -1,6 +1,15 @@
 <template>
-  <HelloWorld msg="Hello Vue 3 + Vite" />
-  <change-detect-using-vue-2></change-detect-using-vue-2>
+  <!-- <HelloWorld msg="Hello Vue 3 + Vite" /> -->
+  <!-- <change-detect-using-vue-2></change-detect-using-vue-2> -->
+  <div>
+    <div class="col-12">
+      <div id="nav">
+        <router-link to="/">Hello World</router-link> |
+        <router-link to="/change-detection">Change Detection</router-link>
+      </div>
+    </div>
+    <router-view />
+  </div>
 </template>
 
 <script>
