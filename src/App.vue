@@ -3,10 +3,12 @@
   <!-- <change-detect-using-vue-2></change-detect-using-vue-2> -->
   <div>
     <div class="col-12">
-      <div id="nav" style="margin-bottom: 30px">
+      <div id="nav" style="margin-bottom: 30px; padding: 20px">
         <router-link to="/">Hello World</router-link> |
         <router-link to="/change-detection">Change Detection</router-link> |
         <router-link to="/suspense">Suspense Experimental Feature</router-link>
+        |
+        <router-link to="/for-refs">For Loop Refs</router-link>
       </div>
     </div>
     <router-view />
